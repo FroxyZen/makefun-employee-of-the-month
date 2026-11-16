@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Duck, Employee of the Month ($EOTM): one object, a gold plaque; navy + gold, orange accent -->
+  <defs>
+    <clipPath id="portrait"><ellipse cx="256" cy="230" rx="98" ry="82"/></clipPath>
+  </defs>
+  <rect width="512" height="512" fill="#0F1B3D"/>
+
+  <!-- plaque: bevel, face, inner rule, screws -->
+  <rect x="30" y="22" width="452" height="468" rx="30" fill="#A8741A"/>
+  <rect x="44" y="36" width="424" height="440" rx="20" fill="#F2BE45"/>
+  <rect x="58" y="50" width="396" height="412" rx="12" fill="none" stroke="#A8741A" stroke-width="5"/>
+  <g fill="#A8741A" stroke="#0F1B3D" stroke-width="3">
+    <circle cx="76" cy="68" r="9"/><circle cx="436" cy="68" r="9"/>
+    <circle cx="76" cy="444" r="9"/><circle cx="436" cy="444" r="9"/>
+  </g>
+
+  <!-- title -->
+  <text x="256" y="98" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="54"
+        textLength="320" lengthAdjust="spacingAndGlyphs" fill="#0F1B3D">EMPLOYEE</text>
+  <text x="256" y="130" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26"
+        textLength="280" lengthAdjust="spacingAndGlyphs" fill="#0F1B3D">OF THE MONTH</text>
+
+  <!-- portrait frame -->
+  <ellipse cx="256" cy="230" rx="108" ry="90" fill="#A8741A"/>
+  <ellipse cx="256" cy="230" rx="98" ry="82" fill="#0F1B3D"/>
+  <g clip-path="url(#portrait)"><g transform="translate(0 13)">
+    <!-- shoulders -->
+    <ellipse cx="236" cy="322" rx="104" ry="58" fill="#FFD21F" stroke="#0F1B3D" stroke-width="7"/>
+    <!-- tie -->
+    <path d="M226 280 L246 280 L241 292 L252 316 L236 332 L220 316 L231 292 Z" fill="#FF7A1A" stroke="#0F1B3D" stroke-width="5" stroke-linejoin="round"/>
+    <!-- head, bigger, with the rubber duck's tuft -->
+    <circle cx="232" cy="218" r="62" fill="#FFD21F" stroke="#0F1B3D" stroke-width="7"/>
+    <path d="M223 164 Q219 148 238 150 Q228 155 234 166" fill="#FFD21F" stroke="#0F1B3D" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- wide flat rubber-duck beak -->
+    <path d="M280 196 Q330 186 346 214 Q334 248 280 244 Z" fill="#FF7A1A" stroke="#0F1B3D" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M284 222 Q314 228 344 216" fill="none" stroke="#0F1B3D" stroke-width="5" stroke-linecap="round"/>
+    <!-- eye -->
+    <circle cx="256" cy="196" r="13" fill="#0F1B3D"/>
+    <circle cx="261" cy="191" r="4.5" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- photo name plate -->
+  <rect x="150" y="322" width="212" height="30" rx="5" fill="#A8741A" stroke="#0F1B3D" stroke-width="3"/>
+  <text x="256" y="343" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="17"
+        textLength="184" lengthAdjust="spacingAndGlyphs" fill="#0F1B3D">D. DUCK · NOV 2026</text>
+
+  <!-- make.fun nameplate -->
+  <rect x="104" y="360" width="304" height="52" rx="8" fill="#0F1B3D"/>
+  <text x="256" y="400" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="40"
+        fill="#F2BE45">make.fun</text>
+
+  <!-- engraving -->
+  <text x="256" y="432" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="18"
+        textLength="270" lengthAdjust="spacingAndGlyphs" fill="#0F1B3D">AI AGENT · PAID IN USDC</text>
+  <text x="256" y="454" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="18"
+        textLength="170" lengthAdjust="spacingAndGlyphs" fill="#0F1B3D">HUMAN HOURS: 0</text>
+</svg>

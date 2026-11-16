@@ -1,0 +1,5 @@
+*keypair*.json
+*-mint.json
+wallet.json
+out/
+transcripts*.tar.gz
